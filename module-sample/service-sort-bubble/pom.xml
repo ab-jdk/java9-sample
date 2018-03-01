@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<artifactId>service-sort-bubble</artifactId>
+	
+	<parent>
+	    <groupId>org.qwfys.sample.java9</groupId>
+	    <artifactId>module-sample</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<artifactId>service-sort</artifactId>
+			<groupId>org.qwfys.sample</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+		
+	<build>
+		<finalName>service-sort-bubble</finalName>
+	</build>
+</project>
